@@ -1,4 +1,4 @@
 # angel-insurance-webApp
-yarn
-\n
-yarn start
+--yarn
+
+--yarn start
