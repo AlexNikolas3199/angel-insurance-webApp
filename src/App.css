@@ -1,10 +1,40 @@
+@font-face {
+  font-family: 'SF Pro Text';
+  src: url('../public/fonts/SFProText-Regular.ttf');
+  font-weight: normal;
+}
+@font-face {
+  font-family: 'SF Pro Text';
+  src: url('../public/fonts/SFProText-Bold.ttf');
+  font-weight: bold;
+}
+@font-face {
+  font-family: 'SF Pro Text';
+  src: url('../public/fonts/SFProText-Semibold.ttf');
+  font-weight: 600;
+}
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: 'SF Pro Text';
 }
-
 body {
-  background: var(--tg-theme-bg-color);
-  color: var(--tg-theme-text-color);
+  background: #2c2d32;
+  color: #fff;
+}
+.grayt {
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: -0.41px;
+}
+.space15 {
+  height: 15px;
+}
+.sb {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }

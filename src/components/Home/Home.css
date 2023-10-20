@@ -1,0 +1,45 @@
+.header {
+  padding: 10px 17px;
+}
+h1 {
+  color: var(--tg-theme-text-color);
+  font-size: 32px;
+  font-weight: 600;
+  line-height: normal;
+  letter-spacing: -0.41px;
+  margin-bottom: 5px;
+}
+.square-scroll {
+  display: flex;
+  gap: 10px;
+  overflow: auto;
+  width: 100vw;
+  margin-top: 15px;
+  padding: 0 12px;
+}
+.square-scroll::-webkit-scrollbar {
+  display: none;
+}
+.square {
+  width: 100px;
+  height: 100px;
+  padding: 10px 7px;
+  flex-shrink: 0;
+  border-radius: 12px;
+  border: 1px solid rgba(255, 255, 255, 0.48);
+  background: #ff9094;
+  font-size: 13px;
+  font-weight: 600;
+  line-height: 15px; /* 115.385% */
+  letter-spacing: -1px;
+}
+.defaultwrap {
+  padding: 0 17px;
+}
+h2 {
+  margin: 10px 0 5px;
+  font-size: 28px;
+  font-weight: 600;
+  line-height: 34px; /* 121.429% */
+  letter-spacing: -1px;
+}
